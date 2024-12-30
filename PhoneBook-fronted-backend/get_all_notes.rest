@@ -1,0 +1,9 @@
+GET http://localhost:3005/api/persons/
+###
+POST http://localhost:3005/api/persons/
+Content-Type: application/json
+
+{
+    "content":"VS Content",
+    "name": "Dan Abramo"
+}
